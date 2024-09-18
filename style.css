@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 1s;
+}
+nav ul li a:hover {
+    color: #f8731a;
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+#contact{
+    min-height: 200px;
+}
+#about{
+margin-top: 100px;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7rem 6rem 0 6rem;
+    gap: 4rem;
+}
+.name{
+    font-size: 3rem;
+}
+.para{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.image{
+border: 2px solid black;
+}
+.image img{
+    width: 190px;
+    padding: 5px 5px 0 5px;
+}
+.btn{
+    margin-top: 2rem;
+}
+.link{
+    padding: 1rem 1.6rem;
+    margin: 1rem 1rem 0 0;
+    font-size: 1rem;
+    transition: 1s;
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.project>ul>li>nav{
+    font-weight: 800;
+    display: inline;
+}
+.project>ul>li>h3{
+    text-decoration: underline;
+}
+.project>ul>li{
+    padding: 10px;
+}
+#about h2{
+    margin-bottom: 1rem;
+}
+#about p{
+    line-height: 1.2rem;
+}
+#resume>a>button{
+    padding: 1rem 1.6rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    transition: 1s;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+#resume>a>button:hover{
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+form>input{
+    padding: 8px ;
+}
+form>button{
+    display: block;
+    margin-top: 1rem;
+    padding: 6px 20px;
+    border: 0;
+    outline: 0;
+    transition: 1s;
+    border: 1px solid black;
+}
+form>button:hover{
+    color: #fff;
+    background-color: #f8731a;
+}
